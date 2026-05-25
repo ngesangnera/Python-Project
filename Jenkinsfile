@@ -1,5 +1,10 @@
 pipeline {
   agent any
+  
+  environment {
+    IMAGE_NAME = "ngesang/uptime_monitor"
+  }
+  
 
   stages {
 
